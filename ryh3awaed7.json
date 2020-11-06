@@ -1,0 +1,20 @@
+{
+	"firstName":"James",
+	"lastName":"Howlett",
+	"preferredName":"Logan",
+	"email":"logan@xavier.edu",
+	"phoneNumber":"555-555-xmen",
+	"class":"cpsc-24700-001",
+	"room":"AS-104-A",
+	"startTime":"3pm CT",
+	"seatNumber":"",
+	"inPerson":[ "" ],
+	"virtual": [ "Monday","Wednesday", "Friday" ],
+	"city":"North Salem",
+	"state":"NY",
+	"zip":"10560",
+	"lat":"41.32",
+	"lng":"-73.61", 
+	"favoriteHobby": "Drinking",
+	"birthYear": "1832"
+}

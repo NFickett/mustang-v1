@@ -1,0 +1,20 @@
+{
+	"firstName":"Nathan",
+	"lastName":"Fickett",
+	"preferredName":"Nathan",
+	"email":"nathanefickett@lewisu.edu",
+	"phoneNumber":"",
+	"class":"cpsc-24700-001",
+	"room":"AS-104-A",
+	"startTime":"3pm CT",
+	"seatNumber":"",
+	"inPerson":[ "" ],
+	"virtual": [ "Monday","Wednesday", "Friday" ],
+	"city":"Romeoville",
+	"state":"IL",
+	"zip":"60446",
+	"lat":"41.65",
+	"lng":"-88.01", 
+    "favoriteHobby": "Gaming",
+    "birthYear": "1998"
+}
