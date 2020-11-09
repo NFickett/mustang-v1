@@ -2,17 +2,24 @@
 <html lang="en">
 <!--
     Author:  Nathan
-    Class:   Web & Distributed Programming 
+	Class:   Web & Distributed Programming 
+	This program will load the index file that is hosted on azure
+	parse the json and display its content to the user
+	it will also update how many contacts have been loaded
+	in real time
 -->
 <head>
 <meta charset="utf-8">
-    <title>Mustang Index</title>
+	<title>Mustang V1</title>
+	<script src = "index.js"></script>
 </head>
 <body>
 
-	This site is intended to host the Mustang index JSON file
-	<a href="https://mustang-index.azurewebsites.net/index.json" target="_blank">[link]</a><br /><br />
-	Nathan Fickett <a href="lyub4dprc4.json" target="_blank">[link]</a><br />
-	Wolverine <a href="ryh3awaed7.json" target="_blank">[link]</a>
+	<h1>Mustang V1</h1>
+	<button id = "indexBtn" type="button" onclick = "loadIndex()">Load Index</button>
+	<button id = "contactBtn" type="button" onclick = "loadContact()" disabled>Load Contact</button>
+	<div>Contacts Loaded: <span id = "loadedContacts">0</span></div>
+	<div id = "indexList"></div>
+	<div id = "contactList"></div>
 </body>
 </html>
